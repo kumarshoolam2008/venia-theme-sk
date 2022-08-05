@@ -6,7 +6,7 @@ import LoginApp from "../SignInPage/LoginApp";
 import basket from '../../assets/images/shopping-bag.png';
 import '../../assets/css/aem-grid.css';
 import { NavLink } from "react-router-dom";
-import Skeleton from 'react-loading-skeleton';
+// import Skeleton from 'react-loading-skeleton';
 
 const Header = (props) => {
   const [loading, setLoading] = useState(false);
